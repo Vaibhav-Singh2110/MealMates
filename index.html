@@ -40,6 +40,7 @@
       emailjs.init("R6AP0wTQI4Oqwe3Dm");
    })();
 </script>
+<script type="text/javascript" src="https://app.rekart.io/embed/rekart_embed.js"></script>
 </head>
 
 <body>
@@ -87,7 +88,8 @@
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                         <a href="career.html" class="nav-item nav-link">Career</a>
                     </div>
-                    <a href="#res" class="btn btn-primary py-2 px-4">Book Your Meal</a>
+                    <!-- <a href="#res" class="btn btn-primary py-2 px-4">Book Your Meal</a> -->
+                    <a rekart-url="https://mealmates.rekart.io/home" href="#res" class="btn btn-primary py-2 px-4">Order Now</a>
                     
                       
                 </div>
@@ -98,7 +100,9 @@
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="display-3 text-white animated slideInLeft">Authentic<br>North Indian Meals</h1>
                             <p class="text-white animated slideInLeft mb-4 pb-2">Elevate your dining experience with Meal Mates, where every bite becomes a cherished memory. Our culinary creations are crafted to delight your taste buds, transforming ordinary meals into extraordinary moments.</p>
-                            <a href="#res" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book Your Meal</a>
+                            <!-- <a href="#res" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book Your Meal</a> -->
+                            <a rekart-url="https://mealmates.rekart.io/home" href="#res" class="btn btn-primary py-2 px-4">Order Now</a>
+
                             <p style="margin-top: 20px;">
                                 <span style="font-weight: bold;font-size: 25px;color: red;">Note:</span>
                                 <span style="font-weight: bold;font-size: 20px; color: white;"> We have separate kitchens for veg and non-veg.</span>
@@ -194,6 +198,7 @@
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">
                                     <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">300</h1>
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" >+</h1>
                                     <div class="ps-4">
                                         <p class="mb-0">Happy</p>
                                         <h6 class="text-uppercase mb-0">Customers</h6>
@@ -203,6 +208,7 @@
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">
                                     <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">5000</h1>
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" >+</h1>
                                     <div class="ps-4">
                                         <p class="mb-0">Meals</p>
                                         <h6 class="text-uppercase mb-0">Delivered</h6>
@@ -576,7 +582,7 @@
                                                 <li><strong>Lunch and Dinner :</strong> Rs. 101 per meal (Non-Veg)</li>
                                                 
                                             </ul>
-                                            <a href="https://api.whatsapp.com/send?phone=8294199602&text=I’m interested in your service and would like to know more." target="_blank" class="btn btn-primary">Subscribe</a>
+                                            <a rekart-url="https://mealmates.rekart.io/home" href="#res" class="btn btn-primary py-2 px-4">Subscribe</a>
                                         </div>
                                     </div>
                                 </div>
@@ -595,7 +601,7 @@
                                                 <li><strong>Lunch and Dinner :</strong> Rs. 85 per meal (Veg)</li>
                                                 <li><strong>Lunch and Dinner :</strong> Rs. 97 per meal (Non-Veg)</li>
                                             </ul>
-                                            <a href="https://api.whatsapp.com/send?phone=8294199602&text=I’m interested in your service and would like to know more." target="_blank" class="btn btn-primary">Subscribe</a>
+                                            <a rekart-url="https://mealmates.rekart.io/home" href="#res" class="btn btn-primary py-2 px-4">Subscribe</a>
                                         </div>
                                     </div>
                                 </div>
@@ -615,7 +621,7 @@
                                                 <li><strong>Lunch and Dinner :</strong> Rs. 120 per meal (Veg)</li>
                                                 <li><strong>Lunch and Dinner :</strong> Rs. 150 per meal (Non-Veg)</li>
                                             </ul>
-                                            <a href="https://api.whatsapp.com/send?phone=8294199602&text=I’m interested in your service and would like to know more." target="_blank" class="btn btn-primary" class="btn btn-primary">Order Now</a>
+                                            <a rekart-url="https://mealmates.rekart.io/home" href="#res" class="btn btn-primary py-2 px-4">Order Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -644,11 +650,18 @@
                 </div>
                 <div class="col-md-6 bg-dark d-flex align-items-center">
                     <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
-                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Booking</h5>
-                        <h1 class="text-white mb-4">Book Your Meal Online</h1>
-                        
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Order</h5>
+                        <h1 class="text-white mb-4">How it works?</h1>
+                        <h6 class="text-white mb-4">How it works? Subscribe to us, through the website, choose your meal plan, set your dates – AS SIMPLE AS THAT! You can select the items you want (Or don’t want!) in your meals. You control the dates that you want your meal delivered. You select where you want it delivered. You control your meal right from the onset.</h6>
 
-                            <div class="row g-1"> <!-- Adjusted spacing here -->
+                        <ol class="how-it-works-list">
+                            <li><span class="how-it-works-point" style="font-weight: bold; color: white; text-decoration: underline;">Install/Register</span></li>
+                            <li><span class="how-it-works-point" style="font-weight: bold; color: white; text-decoration: underline;">Select/Customize</span></li>
+                            <li><span class="how-it-works-point" style="font-weight: bold; color: white; text-decoration: underline;">Subscribe</span></li>
+                            <li><span class="how-it-works-point" style="font-weight: bold; color: white; text-decoration: underline;">Enjoy</span></li>
+                        </ol>
+                        <a rekart-url="https://mealmates.rekart.io/home" href="#res" class="btn btn-primary py-2 px-4">Order Now</a>
+                            <!-- <div class="row g-1"> 
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <input type="text" class="form-control" id="name" placeholder="Your Name">
@@ -699,7 +712,7 @@
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" onclick="sendMail()">Book Now</button>
                                 </div>
-                            </div>
+                            </div> -->
                         
                     </div> 
                 </div>
@@ -841,7 +854,7 @@
                                 <img class="img-fluid" src="img/aliya.jpg" alt="">
                             </div>
                             <h5 class="mb-0">Aliya Sarosh</h5>
-                            <small>Marketing Executive</small>
+                            <small>Marketing Head</small>
                             <!-- <div class="d-flex justify-content-center mt-3">
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -889,8 +902,8 @@
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testi_male.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Aditya Singh</h5>
-                                <small>Software Developer</small>
+                                <h5 class="mb-1">Vaibhav Singh</h5>
+                                <small>IT Professional</small>
                             </div>
                         </div>
                     </div>
@@ -959,7 +972,7 @@
                     </div>
 
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Scan Me</h4>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Scan for Help!</h4>
                         <img class="img-fluid" src="img/scan.png" alt="">
                         
 
